@@ -66,6 +66,11 @@ In the previous section you have set up a basic data structure and created some 
 
 	![](attachments/18448686/18581091.png)
 
+    Note: To optimize the number of commits, you can perform the commit outside of the loop. This way, there would be a single         
+    commit to the database instead of one per order.
+
+    ![](attachments/8784287/working-with-lists-optimization.png)
+
 10. Double-click the retrieve activity to open its properties.
 11. Select **From database** for the **Source** option.
 12. Set the following properties:<br>
